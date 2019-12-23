@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce228a89-53ad-48f6-bde5-aea7a04b5af3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V5Frkj7WOkBkAOtlAWHaaATZS9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce228a89-53ad-48f6-bde5-aea7a04b5af3" name="Default Changelist" comment="" />
+      <created>1576535252959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576535252959</updated>
+      <workItem from="1576535265473" duration="7923000" />
+      <workItem from="1576592252456" duration="134000" />
+      <workItem from="1576601648976" duration="410000" />
+      <workItem from="1576613713293" duration="17518000" />
+      <workItem from="1576656971892" duration="49888000" />
+      <workItem from="1576763143423" duration="37624000" />
+      <workItem from="1576838990100" duration="14455000" />
+      <workItem from="1576858873713" duration="29300000" />
+      <workItem from="1576919659987" duration="325000" />
+      <workItem from="1576934556885" duration="5355000" />
+      <workItem from="1577018097802" duration="43342000" />
+      <workItem from="1577094508471" duration="24975000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577115824632">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1577115824632" />
+    <state x="453" y="316" key="com.intellij.ide.util.TipDialog" timestamp="1577094506419">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="453" y="316" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1577094506419" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1576801613801">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1576801613801" />
+    <state x="431" y="181" key="search.everywhere.popup" timestamp="1576848790441">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1576848790441" />
+  </component>
+</project>

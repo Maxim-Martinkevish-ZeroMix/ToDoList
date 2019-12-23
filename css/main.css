@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image:url("https://wallbox.ru/wallpapers/main/201432/7189d1e62a7ce55.jpg");
+    background-size:  auto auto;
+    background-repeat: no-repeat;
+}
+/**********************To-Do-List*************************/
+.wrapper {
+    width: 920px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+ul li.checked {
+    background: #36f941;
+    color: #fff;
+    text-decoration: line-through;
+}
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+.cleaner{
+    position: absolute;
+    border: black 1px solid;
+    border-radius: 0 0 100px 100px;
+    width: 920px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    font: 18px italic;
+    background: #f0195c;
+    color: white;
+    transition: 0.3s;
+}
+.cleaner:hover{
+    background: #d9d9d9;
+    color: #555555;
+    cursor: pointer;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    background: #f44c41;
+    border-radius: 50px;
+    font-size: 0.8em;
+}
+li>.close{
+    display: none;
+}
+li:hover>.close {
+    display: block;
+    color: white;
+}
+#exit{
+    border-radius: 10px;
+    position: absolute;
+    left:20px;
+    top:20px;
+    padding: 10px;
+    width: 100px;
+    background: #e91b4c;
+    color: #ffffff;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.header {
+    background-color: #f39921;
+    border-radius: 100px 100px 0 0;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input {
+    border: none;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+.change{
+    position: absolute;
+    right: 50px;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    background: #f4e57d;
+    border-radius: 10px;
+    font-size: 0.8em;
+}
+li>.change{
+    display: none;
+}
+li:hover>.change {
+    display: block;
+}
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #0d0f1e;
+    color: #ffffff;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.addBtn:hover {
+    background-color: #2abb32;
+}
+
+div.todoItem{
+    width: 90%;
+    height: 21px;
+}
+#filterFin{
+    top:20px;
+    right: 10%;
+}
+#filterUnFin{
+    top:20px;
+    right: 2%;
+}
+#filterAll{
+    top:70px;
+    right: 6%;
+}
+#filterAll,#filterUnFin,#filterFin{
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    width: 100px;
+    background: #f39921;
+    color: #ffffff;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#filterAll:hover,#filterUnFin:hover,#filterFin:hover  {
+    background-color: #2abb32;
+}
+/**********************Log*************************/
+
+.login_wrapper{
+    margin:15% auto;
+    width: 400px;
+    height: 200px;
+    background: #36b145;
+    border-radius: 50px;
+}
+#email{
+    margin-top: 50px;
+}
+#password{
+    margin-top: 100px;
+}
+#password,#email{
+    width: 300px;
+    position: absolute;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: #cbe9f1;
+    transition: 0.1s;
+}
+#password:hover,#password:focus,#email:hover,#email:focus{
+    background-color: #d6edf3;
+    color: black;
+    border: #5252a4 2px solid;
+}
+#singIn{
+    width: 100px;
+    height: 30px ;
+    border: #3f3f3f 1px solid;
+    border-radius: 75px;
+    position: absolute;
+    background-color: #cbe9f1;
+    color: #757575;
+    font-size:16px;
+    margin-left: 150px;
+    margin-top: 150px;
+    transition: 0.1s;
+}
+#singIn:hover{
+    color: white;
+    border: #5252a4 2px solid;
+    cursor: pointer;
+}
+.account{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 150px;
+    color: #1f204d;
+}
+
+/*************Change******************/
+
+.input-change{
+    height: 40px;
+    width: 850px;
+}

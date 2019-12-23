@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>To-Do-List</title>
+</head>
+<body>
+<template id="toDoPage">
+    <div class="wrapper">
+        <div class="header">
+            <h1>To Do List</h1>
+            <span id="filterFin">Finished</span>
+            <span id ="filterUnFin">Unfinished</span>
+            <span id ="filterAll">All</span>
+            <div>
+            <span>Finished <b id="counterFin">0</b></span>
+                <hr>
+            <span>Unfinished <b id="counterUnFin">0</b></span>
+                <hr>
+            <span>All <b id="counterAll">0</b></span>
+                <hr>
+            </div>
+            <input type="text" placeholder="Enter new note" id="toDoEl" maxlength="90">
+            <span class="addBtn" >Add a note</span>
+        </div>
+        <div class="js-items">
+            <ul id="list">
+            </ul>
+        </div>
+        <button class="cleaner" type="button">Clear the list</button>
+    </div>
+</template>
+<template id="login">
+    <div class="login_wrapper">
+    <h1 class="account">Account</h1>
+    <input type="email" id="email" name="email" placeholder="E-mail"  />
+    <input type="password" id="password" name="password" placeholder="Password"  />
+    <button id="singIn">Log In</button>
+    </div>
+</template>
+<main>
+    <section class="app" id="app">
+
+    </section>
+</main>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
